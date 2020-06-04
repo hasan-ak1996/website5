@@ -506,9 +506,7 @@ menuBtn.addEventListener('click',function(e){
 	e.stopPropagation();
 });
 
-tLinks.onclick = function(e){
-	e.stopPropagation();
-};
+
 
 document.addEventListener('click',function(e){
 	if( e.target !== menuBtn && e.target !==  tLinks){
